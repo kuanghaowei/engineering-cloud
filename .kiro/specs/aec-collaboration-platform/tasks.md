@@ -90,20 +90,20 @@
     - 对受保护端点发起无token请求,验证返回401
     - _Requirements: 15.5_
 
-- [ ] 4. 租户与项目管理
-  - [ ] 4.1 实现租户管理服务
+- [x] 4. 租户与项目管理
+  - [x] 4.1 实现租户管理服务
     - 创建TenantService类
     - 实现CRUD操作
     - 创建租户管理API端点(/v1/tenants)
     - _Requirements: 1.1, 1.5_
 
-  - [ ] 4.2 实现项目管理服务
+  - [x] 4.2 实现项目管理服务
     - 创建ProjectService类
     - 实现项目创建和查询
     - 创建项目API端点(/v1/projects)
     - _Requirements: 2.1, 2.2_
 
-  - [ ] 4.3 实现权限管理服务
+  - [x] 4.3 实现权限管理服务
     - 创建PermissionService类
     - 实现RBAC权限检查
     - 实现成员管理功能
