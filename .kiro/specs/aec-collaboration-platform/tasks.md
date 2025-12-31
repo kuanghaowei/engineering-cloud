@@ -23,8 +23,8 @@
   - 测试环境变量加载
   - _Requirements: 14.3_
 
-- [ ] 2. 数据库模型与迁移
-  - [ ] 2.1 定义SQLAlchemy基础模型
+- [x] 2. 数据库模型与迁移
+  - [x] 2.1 定义SQLAlchemy基础模型
     - 创建Base类和数据库会话管理
     - 定义Tenant模型
     - 定义User模型
@@ -32,7 +32,7 @@
     - 定义ProjectMember模型
     - _Requirements: 14.2, 1.1, 2.1_
 
-  - [ ] 2.2 定义文件系统相关模型
+  - [x] 2.2 定义文件系统相关模型
     - 定义Repository模型
     - 定义FileNode模型
     - 定义FileVersion模型
@@ -40,14 +40,14 @@
     - 添加必要的索引
     - _Requirements: 14.2, 3.1, 3.3, 4.4_
 
-  - [ ] 2.3 定义工作流与签章模型
+  - [x] 2.3 定义工作流与签章模型
     - 定义Workflow模型
     - 定义WorkflowInstance模型
     - 定义DigitalSeal模型
     - 添加外键约束
     - _Requirements: 14.2, 10.1, 11.1, 14.5_
 
-  - [ ] 2.4 配置Alembic数据库迁移
+  - [x] 2.4 配置Alembic数据库迁移
     - 初始化Alembic
     - 生成初始迁移脚本
     - 测试迁移执行
