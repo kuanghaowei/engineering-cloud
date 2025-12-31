@@ -8,6 +8,7 @@ from typing import AsyncGenerator
 from app.config import settings
 from app.logging_config import setup_logging, get_logger
 from app.database import init_db, close_db
+from app.routers import auth
 
 # Setup logging
 setup_logging()
@@ -53,6 +54,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include routers
+app.include_router(auth.router)
 
 
 @app.get("/")
