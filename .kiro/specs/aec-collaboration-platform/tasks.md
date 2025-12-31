@@ -128,19 +128,19 @@
     - 生成随机用户和角色,尝试各种操作,验证权限检查正确
     - _Requirements: 2.3, 2.4, 2.5_
 
-- [ ] 5. 对象存储适配器
-  - [ ] 5.1 实现存储后端抽象接口
+- [x] 5. 对象存储适配器
+  - [x] 5.1 实现存储后端抽象接口
     - 创建StorageBackend抽象基类
     - 定义put_object, get_object, delete_object, object_exists方法
     - _Requirements: 6.1, 6.2_
 
-  - [ ] 5.2 实现MinIO存储后端
+  - [x] 5.2 实现MinIO存储后端
     - 创建MinIOBackend类
     - 实现所有存储操作
     - 配置连接池和重试逻辑
     - _Requirements: 6.1, 6.3_
 
-  - [ ] 5.3 实现OSS存储后端
+  - [x] 5.3 实现OSS存储后端
     - 创建OSSBackend类
     - 实现所有存储操作
     - 配置阿里云SDK
