@@ -8,7 +8,7 @@ from typing import AsyncGenerator
 from app.config import settings
 from app.logging_config import setup_logging, get_logger
 from app.database import init_db, close_db
-from app.routers import auth, tenants, projects, permissions, repositories, files
+from app.routers import auth, tenants, projects, permissions, repositories, files, versions, upload
 
 # Setup logging
 setup_logging()
@@ -62,6 +62,8 @@ app.include_router(projects.router)
 app.include_router(permissions.router)
 app.include_router(repositories.router)
 app.include_router(files.router)
+app.include_router(versions.router)
+app.include_router(upload.router)
 
 
 @app.get("/")

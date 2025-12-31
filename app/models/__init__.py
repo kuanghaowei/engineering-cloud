@@ -8,6 +8,7 @@ from app.models.repository import Repository
 from app.models.file_node import FileNode
 from app.models.file_version import FileVersion
 from app.models.chunk import Chunk
+from app.models.upload_session import UploadSession
 from app.models.workflow import Workflow, WorkflowInstance
 from app.models.digital_seal import DigitalSeal
 
@@ -21,6 +22,7 @@ __all__ = [
     "FileNode",
     "FileVersion",
     "Chunk",
+    "UploadSession",
     "Workflow",
     "WorkflowInstance",
     "DigitalSeal",
